@@ -38,18 +38,6 @@ body:
         - Safari
         - Microsoft Edge
 
-  - type: dropdown
-    id: operating-system
-    attributes:
-      label: Operating System used to start the matlab-proxy executable
-      description: Provide any other information that might be relevant for troubleshooting this bug. Context helps us develop a solution that is most useful in the real world.
-      options:
-        - Linux
-        - Windows
-        - Windows Subsystem for Linux (WSL)
-        - MacOS (Intel)
-        - MacOS (Apple Silicon)
-
   - type: markdown
     attributes:
       value: |
